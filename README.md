@@ -1,127 +1,173 @@
-# 数据分析与报告生成 Agent 系统
+# 数据分析与报告生成 Agent 系统 v2
 
-> 基于多 Agent 协作的智能数据分析系统：一句话提问 → 自动生成 SQL → 执行查询 → 可视化图表 → 完整报告
+> **多Agent长链推理协作** | 一句话自然语言 → 自动SQL → 可视化 → 完整报告
 
-## 系统架构
+---
+
+## 一、解决的核心痛点
+
+| # | 业务痛点 | Agent 解决方案 |
+|---|---|---|
+| 1 | **业务人员不会 SQL** — 只能提模糊需求，无法自主查询数据 | **NL2SQL Agent**：自然语言自动生成可执行 SQL |
+| 2 | **需求表达模糊** — "帮我看看销售情况" 这类问题无法直接使用 | **意图理解 Agent**：拆解为结构化意图（分析类型/维度/指标/时间范围） |
+| 3 | **AI 生成的 SQL 可能出错** — 语法错误、逻辑错误无人校验 | **SQL 校验 Agent**：自动检测+自修复，保证查询正确性 |
+| 4 | **有数据但看不懂** — 拿到数据表格，无法提炼业务洞察 | **数据解读 Agent**：自动生成关键发现、趋势异常、行动建议 |
+| 5 | **不知道用什么图表** — 缺乏数据可视化专业知识 | **可视化 Agent**：智能推荐图表类型并自动生成高质量图表 |
+| 6 | **报告制作耗时长** — 从数据到 PPT/Word 报告需要几小时 | **报告 Agent**：一键生成 Markdown / HTML / Word 三格式报告 |
+
+---
+
+## 二、核心逻辑流（长链推理 + 多Agent 协作）
 
 ```
 用户问题（自然语言）
-    ↓
-[NL2SQL Agent]  →  生成SQL查询
-    ↓
-[DataQuery Agent]  →  执行查询，返回数据
-    ↓
-[Report Agent]  →  生成数据解读文本
-    ↓
-[Visualization Agent]  →  生成图表
-    ↓
-[Report Agent]  →  组装完整报告（Markdown/HTML/Word）
+    │
+    ▼  [痛点1&2: 需求模糊，不会SQL]
+    │
+    ├── Step 1: [意图理解Agent]
+    │          输入：用户自然语言问题
+    │          输出：结构化意图
+    │                - 分析类型（对比/趋势/占比/排名/明细）
+    │                - 分析维度（地区/产品/销售代表/客户类型）
+    │                - 关注指标（销售额/数量/折扣）
+    │                - 时间范围（2024年/全部）
+    │
+    ▼  [上一步的输出是下一步的输入 — 长链推理]
+    │
+    ├── Step 2: [NL2SQL Agent]
+    │          输入：用户问题 + 结构化意图
+    │          输出：SQL 查询语句（更精确，因为有了意图信息）
+    │
+    ▼
+    │
+    ├── Step 3: [SQL 校验Agent]  ← 痛点3: SQL可能出错
+    │          输入：Step 2 生成的 SQL
+    │          处理：语法检查 → GROUP BY一致性 → 危险操作检测 → LLM深度校验
+    │          输出：校验通过 或 自动修复后的SQL
+    │
+    ▼
+    │
+    ├── Step 4: [数据查询Agent]
+    │          输入：Step 3 校验后的 SQL
+    │          输出：查询结果 DataFrame
+    │
+    ▼
+    │
+    ├── Step 5: [数据解读Agent]  ← 痛点4: 有数据看不懂
+    │          输入：用户问题 + 意图 + 查询结果 + SQL
+    │          输出：结构化分析文本
+    │                - 🔍 关键发现（数字说话）
+    │                - 📈 趋势与异常（上升/下降/异常值）
+    │                - 💡 行动建议（可执行）
+    │                - ⚠️ 数据局限（避免误导）
+    │
+    ▼
+    │
+    ├── Step 6: [可视化Agent]  ← 痛点5: 不知道用什么图表
+    │          输入：数据 + 用户问题 + 意图
+    │          输出：多张高质量图表（柱状图/折线图/饼图/热力图）
+    │                - 自动推荐最合适的图表类型
+    │                - 生成主分析图 + 辅助对比图 + 趋势图
+    │
+    ▼
+    │
+    └── Step 7: [报告Agent]  ← 痛点6: 报告耗时长
+              输入：以上所有 Agent 的输出 + 推理链
+              输出：完整分析报告
+                    - Markdown（轻量，适合内部传阅）
+                    - HTML（精美，适合分享和打印）
+                    - Word（正式，适合提交管理层）
+                    - 报告内含完整推理链展示（Agent协作过程）
 ```
 
-## 文件说明
+### 长链推理的关键特征
 
-| 文件 | 说明 |
-|------|------|
-| `config.py` | 配置文件（LLM API、数据库、报告格式） |
-| `nl2sql_agent.py` | NL2SQL Agent（自然语言转SQL）+ DataQuery Agent（执行查询） |
-| `visualization_agent.py` | 可视化 Agent（自动推荐图表类型并生成） |
-| `report_agent.py` | 报告生成 Agent（Markdown/HTML/Word） |
-| `main.py` | CLI 主入口（命令行/交互模式） |
-| `app.py` | Streamlit Web 界面 |
-| `sample_data.csv` | 示例销售数据 |
-| `requirements.txt` | Python 依赖 |
+**每一步的输出是下一步的输入** — 这不是单次 LLM 调用，而是 6 步串联推理：
 
-## 快速开始
+1. 意图理解的结果（分析类型/维度）让 SQL 生成更精确
+2. SQL 校验确保查询正确，避免"垃圾进垃圾出"
+3. 数据解读利用意图信息生成更有针对性的分析
+4. 可视化利用意图中的分析类型推荐最合适的图表
+5. 报告整合所有中间步骤，形成完整可追溯的分析过程
+
+---
+
+## 三、文件结构
+
+```
+D:\SoftWare\Work00\
+├── config.py              ← 配置（LLM API、数据库、6个Agent的Prompt）
+├── nl2sql_agent.py        ← Agent1~4: 意图理解/NL2SQL/SQL校验/数据查询
+├── visualization_agent.py  ← Agent5: 可视化Agent
+├── report_agent.py        ← Agent6: 报告生成Agent
+├── main.py                ← CLI 入口（交互模式 + 单次查询）
+├── app.py                 ← Streamlit Web 界面
+├── demo.py                ← 无API Key演示脚本
+├── sample_data.csv        ← 示例销售数据（30条）
+├── requirements.txt       ← Python 依赖
+├── charts/               ← 生成的图表（自动创建）
+└── reports/              ← 生成的报告（自动创建）
+```
+
+---
+
+## 四、快速开始
 
 ### 1. 安装依赖
 
 ```bash
-pip install -r requirements.txt
+pip install pandas matplotlib seaborn openai python-docx tabulate streamlit
 ```
 
-### 2. 配置 API Key（可选）
+### 2. 运行演示（无需 API Key）
 
-使用 OpenAI API（推荐）：
 ```bash
-export OPENAI_API_KEY="sk-your-key"
-export OPENAI_BASE_URL="https://api.openai.com/v1"  # 可选：改其他兼容接口
+python demo.py
 ```
 
-**无需 API Key 也能运行**：系统内置规则匹配降级方案，无 API 时可正常工作（只是智能程度略低）。
+演示会自动完成 3 个分析问题的完整流程，生成图表和报告。
 
-使用本地模型（Ollama）：
+### 3. 使用 Web 界面（推荐）
+
 ```bash
-# 安装 Ollama 后运行
-ollama serve
-ollama pull qwen2.5:7b
-```
-然后在 `config.py` 中修改配置：
-```python
-OPENAI_API_KEY = "ollama"
-OPENAI_BASE_URL = "http://localhost:11434/v1"
-LLM_MODEL = "qwen2.5:7b"
+streamlit run app.py
 ```
 
-### 3. 运行方式
+浏览器打开 `http://localhost:8501`，可：
+- 输入自然语言问题，实时查看 6 个 Agent 的推理过程
+- 查看推理链（Agent 协作过程可视化）
+- 下载 Markdown / HTML / Word 格式报告
 
-**方式一：命令行交互模式（推荐）**
+### 4. 命令行交互模式
+
 ```bash
 python main.py --interactive
 ```
 
-**方式二：单次提问**
-```bash
-python main.py --query "2024年各地区的销售总额是多少"
-python main.py --query "Alice卖了哪些产品" --formats html word
-```
+### 5. 接入自己的数据
 
-**方式三：Web 界面（最直观）**
-```bash
-streamlit run app.py
-```
-然后在浏览器打开 `http://localhost:8501`
+1. 将数据保存为 CSV，修改 `config.py` 中的 `CSV_PATH`
+2. 更新 `config.py` 中的 `NL2SQL_PROMPT`（表结构说明）
+3. 重新运行
 
-## 示例问题
+---
 
-系统支持自然语言提问，例如：
+## 五、Token 申请用项目描述
 
-- `2024年各地区的销售总额是多少`
-- `Alice 卖了哪些产品，各卖了多少`
-- `各产品类别的销售趋势是怎样的`
-- `哪个销售代表业绩最好`
-- `企业客户的销售额占比是多少`
-- `2024年每月的销售趋势`
-- `折扣对销售金额的影响`
+> 我构建了一个**多 Agent 长链推理数据分析系统**。
+>
+> **解决的核心痛点**：业务人员不会 SQL（自然语言转 SQL）、需求表达模糊（意图自动拆解）、AI 生成 SQL 可能出错（自动校验修复）、有数据看不懂（自动提炼洞察）、不知道用什么图表（智能推荐）、报告制作耗时长（一键生成三格式报告）。
+>
+> **核心逻辑流**：用户问题 → `[意图理解Agent]` 拆解分析意图 → `[NL2SQL Agent]` 基于意图生成 SQL → `[SQL校验Agent]` 自检测自修复 → `[数据查询Agent]` 执行查询 → `[数据解读Agent]` 提炼关键发现与业务洞察 → `[可视化Agent]` 智能推荐图表类型并生成 → `[报告Agent]` 整合所有输出组装报告。**每一步的输出是下一步的输入**，形成完整的长链推理，而非单次 LLM 调用。
+>
+> 系统具备降级能力（无 API Key 时也能运行），已用 30 条销售数据完整测试通过，可生成 Markdown / HTML / Word 三格式报告。
 
-## 输出说明
+---
 
-每次分析生成：
+## 六、技术要点
 
-- **SQL 查询语句**（可查看和复用）
-- **查询结果表格**（在终端/网页展示）
-- **AI 数据解读**（关键发现 + 趋势分析 + 建议）
-- **可视化图表**（自动推荐柱状图/折线图/饼图等，PNG 格式）
-- **完整报告**（支持 Markdown / HTML / Word 三格式，可下载）
-
-输出目录：
-- 图表：`charts/` 目录
-- 报告：`reports/` 目录
-
-## 接入自己的数据
-
-1. 将数据保存为 CSV 文件（第一行是列名）
-2. 修改 `config.py` 中的 `CSV_PATH` 指向你的文件
-3. 修改 `config.py` 中的 `NL2SQL_PROMPT`，更新为你数据的表结构说明
-4. 重新运行即可
-
-## 技术亮点
-
-- **多 Agent 协作**：NL2SQL、查询、可视化、报告各司其职
-- **降级方案**：无 LLM API 时自动切换规则匹配，保证可用性
-- **智能图表推荐**：根据数据特征自动选择最合适的图表类型
-- **多格式报告**：Markdown（轻量）、HTML（精美可分享）、Word（正式文档）
-- **Web 界面**：基于 Streamlit，开箱即用
-
-## Token 申请用项目描述
-
-> 我构建了一个多 Agent 协作的数据分析与报告生成系统。用户用自然语言提问（如"2024年各地区的销售总额"），系统通过 NL2SQL Agent 自动生成 SQL 查询，DataQuery Agent 执行查询获取结果，Visualization Agent 智能推荐并生成可视化图表，Report Agent 自动撰写数据解读并组装成完整报告（支持 Markdown/HTML/Word 三格式输出）。系统具备降级能力（无 API 时也能运行），已用销售数据完整测试通过。长链推理体现在：自然语言理解 → SQL 生成 → 数据验证 → 图表选择 → 解读生成，全过程无需人工干预。
+- **降级方案**：无 LLM API 时，所有 Agent 自动切换为规则匹配模式
+- **SQL 自修复**：双重校验（规则检查 + LLM 深度校验）
+- **推理链可追溯**：每份报告内附完整 Agent 协作过程
+- **中文字体兼容**：自动检测系统字体，无字体时静默降级
+- **支持本地模型**：配置 Ollama 即可使用本地大模型

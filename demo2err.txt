@@ -1,0 +1,332 @@
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 24180 (\N{CJK UNIFIED IDEOGRAPH-5E74}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 24635 (\N{CJK UNIFIED IDEOGRAPH-603B}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 26159 (\N{CJK UNIFIED IDEOGRAPH-662F}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 23569 (\N{CJK UNIFIED IDEOGRAPH-5C11}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 24180 (\N{CJK UNIFIED IDEOGRAPH-5E74}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 24635 (\N{CJK UNIFIED IDEOGRAPH-603B}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 26159 (\N{CJK UNIFIED IDEOGRAPH-662F}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 23569 (\N{CJK UNIFIED IDEOGRAPH-5C11}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 24180 (\N{CJK UNIFIED IDEOGRAPH-5E74}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 24635 (\N{CJK UNIFIED IDEOGRAPH-603B}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 26159 (\N{CJK UNIFIED IDEOGRAPH-662F}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 23569 (\N{CJK UNIFIED IDEOGRAPH-5C11}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 25351 (\N{CJK UNIFIED IDEOGRAPH-6307}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 24180 (\N{CJK UNIFIED IDEOGRAPH-5E74}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 22320 (\N{CJK UNIFIED IDEOGRAPH-5730}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 21306 (\N{CJK UNIFIED IDEOGRAPH-533A}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 24635 (\N{CJK UNIFIED IDEOGRAPH-603B}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 39069 (\N{CJK UNIFIED IDEOGRAPH-989D}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 26159 (\N{CJK UNIFIED IDEOGRAPH-662F}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 23569 (\N{CJK UNIFIED IDEOGRAPH-5C11}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 25351 (\N{CJK UNIFIED IDEOGRAPH-6307}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 20195 (\N{CJK UNIFIED IDEOGRAPH-4EE3}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 34920 (\N{CJK UNIFIED IDEOGRAPH-8868}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 19994 (\N{CJK UNIFIED IDEOGRAPH-4E1A}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 32489 (\N{CJK UNIFIED IDEOGRAPH-7EE9}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 20195 (\N{CJK UNIFIED IDEOGRAPH-4EE3}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 34920 (\N{CJK UNIFIED IDEOGRAPH-8868}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 19994 (\N{CJK UNIFIED IDEOGRAPH-4E1A}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 32489 (\N{CJK UNIFIED IDEOGRAPH-7EE9}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 20195 (\N{CJK UNIFIED IDEOGRAPH-4EE3}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 34920 (\N{CJK UNIFIED IDEOGRAPH-8868}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 19994 (\N{CJK UNIFIED IDEOGRAPH-4E1A}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 32489 (\N{CJK UNIFIED IDEOGRAPH-7EE9}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 25351 (\N{CJK UNIFIED IDEOGRAPH-6307}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 20998 (\N{CJK UNIFIED IDEOGRAPH-5206}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 26512 (\N{CJK UNIFIED IDEOGRAPH-6790}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 20195 (\N{CJK UNIFIED IDEOGRAPH-4EE3}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 34920 (\N{CJK UNIFIED IDEOGRAPH-8868}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 19994 (\N{CJK UNIFIED IDEOGRAPH-4E1A}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 32489 (\N{CJK UNIFIED IDEOGRAPH-7EE9}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 25351 (\N{CJK UNIFIED IDEOGRAPH-6307}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 20135 (\N{CJK UNIFIED IDEOGRAPH-4EA7}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 21697 (\N{CJK UNIFIED IDEOGRAPH-54C1}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 31867 (\N{CJK UNIFIED IDEOGRAPH-7C7B}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 21035 (\N{CJK UNIFIED IDEOGRAPH-522B}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 36235 (\N{CJK UNIFIED IDEOGRAPH-8D8B}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 21183 (\N{CJK UNIFIED IDEOGRAPH-52BF}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 26368 (\N{CJK UNIFIED IDEOGRAPH-6700}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 39640 (\N{CJK UNIFIED IDEOGRAPH-9AD8}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:107: UserWarning: Glyph 20302 (\N{CJK UNIFIED IDEOGRAPH-4F4E}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 20135 (\N{CJK UNIFIED IDEOGRAPH-4EA7}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 21697 (\N{CJK UNIFIED IDEOGRAPH-54C1}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 31867 (\N{CJK UNIFIED IDEOGRAPH-7C7B}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 21035 (\N{CJK UNIFIED IDEOGRAPH-522B}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 36235 (\N{CJK UNIFIED IDEOGRAPH-8D8B}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 21183 (\N{CJK UNIFIED IDEOGRAPH-52BF}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 26368 (\N{CJK UNIFIED IDEOGRAPH-6700}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 39640 (\N{CJK UNIFIED IDEOGRAPH-9AD8}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:108: UserWarning: Glyph 20302 (\N{CJK UNIFIED IDEOGRAPH-4F4E}) missing from font(s) Arial.
+  plt.savefig(output_path, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 20135 (\N{CJK UNIFIED IDEOGRAPH-4EA7}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 21697 (\N{CJK UNIFIED IDEOGRAPH-54C1}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 31867 (\N{CJK UNIFIED IDEOGRAPH-7C7B}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 21035 (\N{CJK UNIFIED IDEOGRAPH-522B}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 36235 (\N{CJK UNIFIED IDEOGRAPH-8D8B}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 21183 (\N{CJK UNIFIED IDEOGRAPH-52BF}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 25351 (\N{CJK UNIFIED IDEOGRAPH-6307}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:280: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) Arial.
+  plt.tight_layout()
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 21508 (\N{CJK UNIFIED IDEOGRAPH-5404}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 20135 (\N{CJK UNIFIED IDEOGRAPH-4EA7}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 21697 (\N{CJK UNIFIED IDEOGRAPH-54C1}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 31867 (\N{CJK UNIFIED IDEOGRAPH-7C7B}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 21035 (\N{CJK UNIFIED IDEOGRAPH-522B}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 30340 (\N{CJK UNIFIED IDEOGRAPH-7684}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 38144 (\N{CJK UNIFIED IDEOGRAPH-9500}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 21806 (\N{CJK UNIFIED IDEOGRAPH-552E}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 36235 (\N{CJK UNIFIED IDEOGRAPH-8D8B}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 21183 (\N{CJK UNIFIED IDEOGRAPH-52BF}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 22810 (\N{CJK UNIFIED IDEOGRAPH-591A}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 25351 (\N{CJK UNIFIED IDEOGRAPH-6307}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 26631 (\N{CJK UNIFIED IDEOGRAPH-6807}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 23545 (\N{CJK UNIFIED IDEOGRAPH-5BF9}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')
+D:\SoftWare\Work00\visualization_agent.py:282: UserWarning: Glyph 27604 (\N{CJK UNIFIED IDEOGRAPH-6BD4}) missing from font(s) Arial.
+  plt.savefig(path2, dpi=150, bbox_inches='tight', facecolor='white')

@@ -27,5 +27,5 @@ Date,Region,Product,Category,Sales_Rep,Sales_Amount,Quantity,Unit_Price,Discount
 2025-01-25,South,Smartphone,Electronics,Bob,49000,70,700,0.05,SMB
 2025-02-08,East,Tablet,Electronics,Charlie,30000,50,600,0.00,Individual
 2025-02-20,West,Monitor,Electronics,Alice,24000,40,600,0.20,Enterprise
-2025-03-10,North,Keyboard Accessories,Bob,6000,200,30,0.00,SMB
+2025-03-10,North,Keyboard,Accessories,Bob,6000,200,30,0.00,SMB
 2025-03-25,South,Mouse,Accessories,Alice,3000,300,10,0.00,Individual
